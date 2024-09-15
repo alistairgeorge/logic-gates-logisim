@@ -43,6 +43,10 @@ IP Cin|IP A|IP B|OP S|OP C|
 1|1|0|0|1|
 1|1|1|1|1|
 
+## Subtraction and Multiplication
+![Subtraction and Multiplication](./images/Sub%20and%20Mul.png)
+
+
 ## Subtraction
 
 |IN A|IP B|OP S|OP C|
