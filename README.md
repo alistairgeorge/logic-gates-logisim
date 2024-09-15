@@ -15,8 +15,50 @@ Examples of Logic Gates using Logisim simulator
 
 [Logisim Beginner's Tutorial (youtube.com)](https://www.youtube.com/watch?v=cMz7wyY_PxE)
 
-## AND, OR, NAND, NOR, XOR, XNOR and ADD gates
+## AND, OR, NAND, NOR, XOR, XNOR and half and full Adder gates
 
-![AND, OR, NAND, NOR, XOR, NOR and ADD](./images/AND%20OR%20NAND%20NOR%20XOR%20XNOR%20NOT%20and%20ADD.png)
+![AND, OR, NAND, NOR, XOR, NOR and half and full ADD](./images/AND%20OR%20NAND%20NOR%20XOR%20XNOR%20NOT%20and%20half%20and%20full%20ADD.png)
 
 [Logisim ALU Tutorial (youtube.com)](https://youtu.be/dYZ-Hwbcnq4)
+
+## Half Adder
+
+|IN A|IP B|OP S|OP C|
+|-|-|-|-|
+|0|0|0|0|
+|0|1|1|0|
+|1|0|1|0|
+|1|1|0|1|
+
+## Full Adder
+
+IP Cin|IP A|IP B|OP S|OP C|
+|-|-|-|-|-|
+0|0|0|0|0|
+0|0|1|1|0|
+0|1|0|1|0|
+0|1|1|0|1|
+1|0|0|1|0|
+1|0|1|0|1|
+1|1|0|0|1|
+1|1|1|1|1|
+
+## Subtraction
+
+|IN A|IP B|OP S|OP C|
+|-|-|-|-|
+|0|0|0|0|
+|0|1|1|1|
+|1|0|1|0|
+|1|1|0|0|
+
+## Multiplication
+
+|IN A|IP B|OP M|
+|-|-|-|
+|0|0|0|
+|0|1|0|
+|1|0|0|
+|1|1|1|
+
+
