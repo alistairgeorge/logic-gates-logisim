@@ -119,3 +119,28 @@ Any two inputs should be positive for the output to be positive.
 |1|0|1|1|1|0|1|
 |1|1|0|0|0|1|1|
 |1|1|1|0|0|1|1|
+
+## Tri-state buffer/inverter
+![Tri-state buffer/inverter](./images/Tri-state%20buffer.png)
+
+### Buffer 
+
+|C|I|O|
+|-|-|-|
+|0|0|Z|
+|0|1|Z|
+|1|0|0|
+|1|1|1|
+
+### Inverter
+
+|C|I|O|
+|-|-|-|
+|0|0|Z|
+|0|1|Z|
+|1|0|1|
+|1|1|0|
+
+[Controlled Buffer/Inverter (cburch.com)](http://www.cburch.com/logisim/docs/2.3.0/libs/gates/controlled.html)
+
+
